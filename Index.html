@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <nav>
+        <ul>    
+        <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#curriculum">Curriculum</a></li>
+            <li><a href="#enroll">Enroll Now</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 style="color:#753862;">Welcome to Full Stack Development Course</h1>
+        <p>Start your journey to becoming a full-stack developer.</p>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We offer comprehensive full-stack development courses tailored for beginners and experienced developers alike. Our mission is to provide high-quality education and support to help you achieve your goals in full-stack development.</p>
+    </section>
+    </div>
+
+    <section id="curriculum">
+        <h2>Curriculum</h2>
+        <div class="slides">
+            <div class="slide">
+                <div class="course">
+                    <h3>Frontend Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="course">
+                    <h3>Backend Development</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Databases (SQL/NoSQL)</li>
+                        <li>RESTful APIs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="course">
+                    <h3>Database Management</h3>
+                    <ul>
+                        <li>SQL Basics</li>
+                        <li>Database Design</li>
+                        <li>Data Modeling</li>
+                        <li>Database Administration</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slides">
+                <div class="course">
+                    <h3>Project Management</h3>
+                    <ul>
+                        <li>Agile Methodology</li>
+                        <li>Scrum Framework</li>
+                        <li>Project Planning</li>
+                        <li>Version Control (Git)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="enroll">
+        <h2>Enroll Now</h2>
+        <form id="enrollmentForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <button type="submit" onclick="enroll()">Enroll Now</button>
+        </form>
+        <p id="enrollmentMessage"></p>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit" onclick="login()">Login</button>
+        </form>
+        <p id="loginMessage"></p>
+        
+        <div class="workshops" id="workshops">
+            <div class="container">
+                <h2 class="text-center about-h1">access<span style="color: rgb(57, 211, 57);"> notes</span></h2>
+                
+                    <div class="text-center">
+                        <img class="course-logo" src="https://cdn-icons-png.flaticon.com/512/2210/2210184.png"width="200px">
+                    </div>
+                    <p class="pandaga-p text-center">Web Development</p>
+                
+        </div>
+        <section style="background: transparent;">
+      
+        <div class="contact pb-5" id="contact">
+            <div class="text-center"style="background-color: rgb(230, 255, 255);">
+                <h2 > contact<span style="color: rgb(57, 211, 57);"> us</span></h2>
+                <p class="about-p"style="color:black;">You can reach us via <span style="color: black;">email</span> and follow us on <span style="color: rgb(57, 211, 57);">social media</span>.</p>
+              
+        
+                <!-- Social Media Links -->
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                       
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png?20200512141346" alt="Instagram" class="social-icon"width="100px"height="100px">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon" width="100px"height="100px">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        
+                            <img src="https://static-00.iconduck.com/assets.00/telegram-icon-2048x2048-l6ni6sux.png" alt="Telegram" class="social-icon"width="100px"height="100px">
+                        </a>
+                    </li>
+                </ul>
+        
+
+    
+
+       <p style="color:black;">If you have any questions or inquiries, please feel free to contact us:</p>
+        <p style="color:black"></p>Email: info@webdevelopmentcourse.com</p>
+        <p style="color:black;">phone: 123-456-7890</p>
+    </section>
+    </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
